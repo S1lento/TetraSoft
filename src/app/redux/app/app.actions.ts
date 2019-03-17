@@ -9,7 +9,7 @@ export namespace USER_ACTIONS {
 export class GetUsers implements Action {
     readonly type = USER_ACTIONS.GET_USERS;
 
-    constructor(public payload: User) {}
+    // constructor(public payload: User) {}
 }
 
 

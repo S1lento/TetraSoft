@@ -1,7 +1,7 @@
-import { User } from '../components/app/user.model'
+import { User } from '../components/app/user.model';
 
 export interface AppState {
-    users: {
+    app: {
         users: User[]
-    }
+    };
 }
