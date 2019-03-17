@@ -1,4 +1,4 @@
-import { User } from '../components/app/user.model';
+import { User } from './app.models';
 
 export interface AppState {
     app: {

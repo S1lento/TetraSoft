@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
 import {MatPaginator, MatTableDataSource} from '@angular/material';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/redux/app.state';
-import {GetUsers, USER_ACTIONS} from '../../redux/app/app.actions';
+import {GetUsers, USER_ACTIONS} from '../../redux/app.actions';
 
 @Component({
   selector: 'app-root',
@@ -37,6 +37,6 @@ export class AppComponent implements OnInit {
       console.log(this.dataSource);
     });
     this.dataSource.paginator = this.paginator;
-  };
+  }
 }
 

@@ -8,7 +8,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { AppComponent } from './components/app/app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
-import { appReducer } from './redux/app/app.reducers';
+import { appReducer } from './redux/app.reducers';
 import { environment } from '../environments/environment';
 
 
