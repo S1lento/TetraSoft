@@ -7,7 +7,7 @@ import {catchError, map, mergeMap} from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
 
 @Injectable()
-export class RequestUsersEffect {
+export class UsersEffect {
   @Effect()
   public getUsers$: Observable<Action> = this.actions$.pipe(
     ofType(USER_ACTIONS.GET_USERS),

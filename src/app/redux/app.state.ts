@@ -1,7 +1,7 @@
-import { User } from './app.models';
+import {User} from './app.models';
+import {HttpErrorResponse} from '@angular/common/http';
 
 export interface AppState {
-    app: {
-        users: User[]
-    };
+  users: User[];
+  error?: HttpErrorResponse;
 }

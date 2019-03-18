@@ -15,14 +15,14 @@ export class GetUsers implements Action {
 export class GetUsersSuccess implements Action {
   readonly type = USER_ACTIONS.GET_USERS_SUCCESS;
 
-  constructor(public users: UsersPayload) {
+  constructor(public payload: UsersPayload) {
   }
 }
 
 export class GetUsersFailure implements Action {
   readonly type = USER_ACTIONS.GET_USERS_FAILURE;
 
-  constructor(public error: HttpErrorResponse) {
+  constructor(public payload: HttpErrorResponse) {
   }
 }
 
